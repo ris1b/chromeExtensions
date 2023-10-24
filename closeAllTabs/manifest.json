@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Close all Tabs",
+    "description": "Close all open tabs and create an empty tab",
+    "version": "1.0",
+    "icons": {
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {},
+    "commands": {
+        "inject-script": {
+            "suggested_key": "Ctrl+Shift+Y",
+            "description": "Inject a script on the page"
+        }
+    }
+}
